@@ -51,5 +51,13 @@
     "golang"
   ],
   "contributes": {
+    "themes": [
+      {
+        "label": "| Dark | JetBrains New UI Color Theme",
+        "id": "dark-jetbrains-color-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-jetbrains-color-theme.json"
+      }
+    ]
   }
 }
