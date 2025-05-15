@@ -8,7 +8,7 @@
 
 		"editor.background": "#1e1f22",
 		"editor.lineHighlightBackground": "#26282e",
-		"editor.inactiveSelectionBackground": "#43454a",
+		"editor.inactiveSelectionBackground": "#43454afe",
 		"editor.selectionBackground": "#214283",
 		"editorLineNumber.foreground": "#444953",
 		"editorLineNumber.activeForeground": "#9b9fa8",
@@ -160,10 +160,10 @@
 		"editorOverviewRuler.errorForeground": "#d64d5b",
 		"editorOverviewRuler.warningForeground": "#c29e4a",
 
-		"editorError.foreground": "#FA6675",
-		"editorWarning.foreground": "#F2C55C",
+		"editorError.foreground": "#c45464",
+		"editorWarning.foreground": "#BA9752",
 		"editorInfo.foreground": "#3592C4",
-		// "editorHint.foreground": "#7EC482",
+		"editorHint.foreground": "#7EC482",
 
 		"diffEditor.insertedTextBackground": "#244c32",
 		"diffEditor.removedTextBackground": "#4d2a23",
@@ -172,9 +172,9 @@
 
 		"gitDecoration.ignoredResourceForeground": "#505050",
 
-		"editor.findMatchBackground": "#114957",
+		"editor.findMatchBackground": "#04738c80",
 		"editor.findMatchBorder": "#ced0d6",
-		"editor.findMatchHighlightBackground": "#114957",
+		"editor.findMatchHighlightBackground": "#04738c80",
 		"editor.findMatchHighlightBorder": "#165e70",
 
 		"editorBracketMatch.background": "#43454a",
