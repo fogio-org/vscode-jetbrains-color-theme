@@ -18,9 +18,7 @@
 		"editorGroupHeader.tabsBorder": "#323438",
 		"editorGroupHeader.tabsBackground": "#1e1f22",
 		"editorCodeLens.foreground": "#6a6e78",
-		"editorIndentGuide.background": "#2c2f32",
 		"editorIndentGuide.background1": "#2c2f32",
-		"editorIndentGuide.activeBackground": "#54565c",
 		"editorIndentGuide.activeBackground1": "#54565c",
 
 		"editor.stackFrameHighlightBackground": "#48242c",

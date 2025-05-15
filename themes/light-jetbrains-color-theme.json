@@ -1,6 +1,6 @@
 {
-	"type": "dark",
+	"type": "light",
 	"$schema": "vscode://schemas/color-theme",
 	"semanticHighlighting": true,
-    "include": "./dark-ide.json",
+    "include": "./light-ide.json",
 }

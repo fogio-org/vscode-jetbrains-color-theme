@@ -57,6 +57,12 @@
         "id": "dark-jetbrains-color-theme",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-jetbrains-color-theme.json"
+      },
+      {
+        "label": "| Light | JetBrains New UI Color Theme",
+        "id": "light-jetbrains-color-theme",
+        "uiTheme": "vs",
+        "path": "./themes/light-jetbrains-color-theme.json"
       }
     ]
   }
