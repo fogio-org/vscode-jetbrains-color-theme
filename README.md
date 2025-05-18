@@ -65,7 +65,7 @@ Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=fogio
 
 Set Color Theme ([guide](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme))
 
-<!-- ![Select the Color Theme](https://raw.githubusercontent.com/fogio-org/vscode-jetbrains-color-theme/refs/heads/master/assets/img/select_color_theme.jpg) -->
+![Select the Color Theme](https://raw.githubusercontent.com/fogio-org/vscode-jetbrains-color-theme/refs/heads/master/assets/img/guide_select_theme.jpg)
 
 This will give you IDE and syntax highlighting.
 
