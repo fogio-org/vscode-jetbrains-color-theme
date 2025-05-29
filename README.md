@@ -13,6 +13,17 @@ The goal of the JetBrains New UI Color Theme is to reduce visual clutter and giv
 
 I hope this theme will be the one you enjoy working with day and night.
 
+---
+
+Check out our compatible extensions
+
+| <img src="https://raw.githubusercontent.com/fogio-org/vscode-jetbrains-file-icon-theme/refs/heads/master/assets/img/icon.png" width="75"> | <img src="https://raw.githubusercontent.com/fogio-org/vscode-jetbrains-product-icon-theme/refs/heads/master/assets/img/icon.png" width="75"> | <img src="https://raw.githubusercontent.com/fogio-org/vscode-jetbrains-color-theme/refs/heads/master/assets/img/icon.png" width="75"> |
+| :---: | :---: | :---: |
+| JetBrains New UI<br>**File Icon Theme** | JetBrains New UI<br>**Product Icon Theme** | JetBrains New UI<br>**Color Theme** |
+| [Install](https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-file-icon-theme) | [Install](https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-product-icon-theme) | You are here |
+
+---
+
 ## Preview
 
 ### Dark theme
