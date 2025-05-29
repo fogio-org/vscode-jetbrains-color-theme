@@ -165,10 +165,10 @@
 		"editorInfo.foreground": "#3592C4",
 		"editorHint.foreground": "#7EC482",
 
-		"diffEditor.insertedTextBackground": "#244c32",
-		"diffEditor.removedTextBackground": "#4d2a23",
-		"diffEditor.insertedLineBackground": "#213327",
-		"diffEditor.removedLineBackground": "#322222",
+		"diffEditor.insertedTextBackground": "#2a794280",
+		"diffEditor.removedTextBackground": "#7c352480",
+		"diffEditor.insertedLineBackground": "#24472C80",
+		"diffEditor.removedLineBackground": "#46252280",
 
 		"gitDecoration.ignoredResourceForeground": "#505050",
 
