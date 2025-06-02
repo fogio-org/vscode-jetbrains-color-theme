@@ -1259,15 +1259,6 @@
 		},
 		{
 			"scope": [
-				"punctuation.section.embedded.begin.metatag.php",
-				"punctuation.section.embedded.end.metatag.php"
-			],
-			"settings": {
-				"foreground": "#c48d69"
-			}
-		},
-		{
-			"scope": [
 				"source.makefile support",
 				"source.makefile keyword",
 				"source.makefile constant.character.escape.continuation",
@@ -2142,6 +2133,112 @@
 			],
 			"settings": {
 				"foreground": "#C77DBB"
+			}
+		},
+		{
+			"scope": [
+				"source.php keyword.control",
+				"source.php keyword.other",
+				"source.php storage.type",
+				"source.php storage.modifier",
+				"source.php support.function.construct"
+			],
+			"settings": {
+				"foreground": "#CF8E6D"
+			}
+		},
+		{
+			"scope": [
+				"source.php variable",
+				"source.php variable.language.this"
+			],
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"scope": [
+				"source.php string.unquoted.heredoc",
+			],
+			"settings": {
+				"foreground": "#6AAB73"
+			}
+		},
+		{
+			"scope": [
+				"source.php keyword.operator.heredoc",
+				"source.php punctuation.definition.arguments.begin.bracket",
+				"source.php punctuation.definition.arguments.end.bracket",
+				"source.php string.unquoted.heredoc punctuation.definition",
+			],
+			"settings": {
+				"foreground": "#BCBEC4"
+			}
+		},
+		{
+			"scope": [
+				"source.php meta.attribute",
+			],
+			"settings": {
+				"foreground": "#B3AE60"
+			}
+		},
+		{
+			"scope": [
+				"source.php constant.other",
+				"source.php constant.language",
+			],
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"scope": [
+				"source.php comment.block.documentation keyword.other",
+			],
+			"settings": {
+				"foreground": "#67A37C"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function",
+				"source.php support.function.constructor",
+			],
+			"settings": {
+				"foreground": "#57AAF7"
+			}
+		},
+		{
+			"scope": [
+				"source.php entity.name.variable.parameter",
+			],
+			"settings": {
+				"foreground": "#467CDA"
+			}
+		},
+		{
+			"scope": [
+				"source.php constant.numeric",
+			],
+			"settings": {
+				"foreground": "#2AACB8"
+			}
+		},
+		{
+			"scope": [
+				"source.php variable.other.property",
+			],
+			"settings": {
+				"foreground": "#C77DBB"
+			}
+		},
+		{
+			"scope": [
+				"source.php string.interpolated",
+			],
+			"settings": {
+				"foreground": "#A5C25C"
 			}
 		},
 	]
