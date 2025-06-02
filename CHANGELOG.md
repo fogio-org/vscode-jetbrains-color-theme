@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.1.1
+
+- Fix entity.name.function scope
+
 ## 0.1.0
 
 - Add php syntax colors
