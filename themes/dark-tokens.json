@@ -2241,5 +2241,23 @@
 				"foreground": "#A5C25C"
 			}
 		},
+		{
+			"scope": "meta.struct-tag.pair.go support.type.property-name.json",
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"scope": "meta.struct-tag.pair.go punctuation.separator.dictionary.key-value.json",
+			"settings": {
+				"foreground": "#BCBEC4"
+			}
+		},
+		{
+			"scope": "meta.struct-tag.pair.go string.quoted.double.json",
+			"settings": {
+				"foreground": "#6A8759"
+			}
+		},
 	]
 }

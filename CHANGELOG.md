@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.2.0
+
+- Add go struct tags colors
+
 ## 0.1.1
 
 - Fix entity.name.function scope
