@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.2.1
+
+- Fix go map color
+
 ## 0.2.0
 
 - Add go struct tags colors

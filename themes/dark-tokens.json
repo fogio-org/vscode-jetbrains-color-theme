@@ -1314,6 +1314,7 @@
 				"keyword.control.go",
 				"keyword.struct.go",
 				"keyword.channel.go",
+				"keyword.map.go",
 				"source.go keyword.package",
 				"source.go keyword.control.import",
 				"source.go keyword.const",
@@ -1324,6 +1325,7 @@
 				"source.go keyword.control",
 				"source.go keyword.struct",
 				"source.go keyword.channel",
+				"source.go keyword.map",
 			],
 			"settings": {
 				"foreground": "#b77651"
