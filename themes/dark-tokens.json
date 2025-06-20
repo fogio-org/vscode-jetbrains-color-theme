@@ -2261,5 +2261,17 @@
 				"foreground": "#6A8759"
 			}
 		},
+		{
+			"scope": "entity.name.type.dbml",
+			"settings": {
+				"foreground": "#56A8F5"
+			}
+		},
+		{
+			"scope": "keyword.dbml",
+			"settings": {
+				"foreground": "#C48D69"
+			}
+		},
 	]
 }
