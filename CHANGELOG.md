@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.3.0
+
+- Add DBML syntax
+
 ## 0.2.1
 
 - Fix go map color
