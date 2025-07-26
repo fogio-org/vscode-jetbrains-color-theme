@@ -2900,5 +2900,66 @@
 				"foreground": "#C77DBB",
 			}
 		},
+		{
+			"scope": [
+				"source.kotlin keyword",
+				"source.kotlin storage.modifier",
+				"source.kotlin support.class",
+				"source.kotlin storage.type",
+			],
+			"settings": {
+				"foreground": "#CF8E6D",
+			}
+		},
+		{
+			"scope": [
+				"source.kotlin comment.block",
+			],
+			"settings": {
+				"foreground": "#5F826B",
+			}
+		},
+		{
+			"scope": [
+				"source.kotlin storage.type.annotation",
+			],
+			"settings": {
+				"foreground": "#B3AE60",
+			}
+		},
+		{
+			"scope": [
+				"source.kotlin keyword.operator",
+				"source.kotlin entity.string.template.element",
+			],
+			"settings": {
+				"foreground": "#BCBEC4",
+			}
+		},
+		{
+			"scope": [
+				"source.kotlin entity.name.function",
+			],
+			"settings": {
+				"foreground": "#56A8F5",
+			}
+		},
+		{
+			"scope": [
+				"source.kotlin support.function",
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"source.kotlin punctuation.definition.keyword",
+				"source.kotlin punctuation.section.block",
+			],
+			"settings": {
+				"foreground": "#CF8E6D",
+			}
+		},
     ]
 }
