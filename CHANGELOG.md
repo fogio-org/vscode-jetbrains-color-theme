@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.4.0
+
+- Add gitDecoration colors
+
 ## 0.3.0
 
 - Add DBML syntax
