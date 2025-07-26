@@ -2616,5 +2616,208 @@
 				"foreground": "#C48D69"
 			}
 		},
+		{
+			"scope": "source.c keyword.control.directive",
+			"settings": {
+				"foreground": "#B3AE60",
+			}
+		},
+		{
+			"scope": "source.c string.quoted",
+			"settings": {
+				"foreground": "#6AAB73",
+			}
+		},
+		{
+			"scope": "source.c entity.name.function.preprocessor",
+			"settings": {
+				"foreground": "#908B25",
+			}
+		},
+		{
+			"scope": [
+				"source.c keyword",
+				"source.c storage.type",
+				"source.c storage.modifier",
+				"source.c variable.other.object.access"
+			],
+			"settings": {
+				"foreground": "#CF8E6D",
+			}
+		},
+		{
+			"scope": "source.c variable.other.object.access",
+			"settings": {
+				"foreground": "#9373A5",
+			}
+		},
+		{
+			"scope": [
+				"source.c keyword.operator",
+				"source.c storage.modifier.array.bracket.square"
+			],
+			"settings": {
+				"foreground": "#BCBEC4",
+			}
+		},
+		{
+			"scope": [
+				"source.c comment.block.documentation",
+			],
+			"settings": {
+				"foreground": "#5F826B",
+			}
+		},
+		{
+			"scope": [
+				"source.c comment.block.documentation storage.type.class.doxygen",
+			],
+			"settings": {
+				"foreground": "#5F826B",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"source.c comment.block.documentation variable.parameter",
+			],
+			"settings": {
+				"foreground": "#5F826B",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"source.c entity.name.function",
+			],
+			"settings": {
+				"foreground": "#56A8F5",
+			}
+		},
+		{
+			"scope": [
+				"source.c keyword.operator.bitwise.shift",
+			],
+			"settings": {
+				"foreground": "#5F8C8A",
+			}
+		},
+		{
+			"scope": "source.cpp keyword.control.directive",
+			"settings": {
+				"foreground": "#B3AE60",
+			}
+		},
+		{
+			"scope": "source.cpp string.quoted",
+			"settings": {
+				"foreground": "#6AAB73",
+			}
+		},
+		{
+			"scope": "source.cpp entity.name.function.preprocessor",
+			"settings": {
+				"foreground": "#908B25",
+			}
+		},
+		{
+			"scope": [
+				"source.cpp keyword",
+				"source.cpp storage.type",
+				"source.cpp storage.modifier",
+				"source.cpp variable.other.object.access"
+			],
+			"settings": {
+				"foreground": "#CF8E6D",
+			}
+		},
+		{
+			"scope": [
+				"source.cpp variable.other.object.access",
+				"source.cpp variable.other.property"
+			],
+			"settings": {
+				"foreground": "#9373A5",
+			}
+		},
+		{
+			"scope": "source.cpp variable.other.property",
+			"settings": {
+				"foreground": "#9373A5",
+			}
+		},
+		{
+			"scope": [
+				"source.cpp keyword.operator",
+				"source.cpp storage.modifier.array.bracket.square",
+				"source.cpp storage.modifier.reference",
+			],
+			"settings": {
+				"foreground": "#BCBEC4",
+			}
+		},
+		{
+			"scope": [
+				"source.cpp comment.block.documentation",
+			],
+			"settings": {
+				"foreground": "#5F826B",
+			}
+		},
+		{
+			"scope": [
+				"source.cpp comment.block.documentation storage.type.class.doxygen",
+			],
+			"settings": {
+				"foreground": "#5F826B",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"source.cpp comment.block.documentation variable.parameter",
+			],
+			"settings": {
+				"foreground": "#5F826B",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"source.cpp entity.name.function",
+			],
+			"settings": {
+				"foreground": "#56A8F5",
+			}
+		},
+		{
+			"scope": [
+				"source.cpp keyword.operator.bitwise.shift",
+			],
+			"settings": {
+				"foreground": "#5F8C8A",
+			}
+		},
+		{
+			"scope": [
+				"source.cpp entity.name.namespace",
+				"source.cpp entity.name.scope-resolution",
+				"source.cpp entity.name.type.struct",
+				"source.cpp entity.name.type.class",
+			],
+			"settings": {
+				"foreground": "#B5B6E3",
+			}
+		},
+		{
+			"scope": [
+				"source.cpp constant.numeric",
+				"source.cpp keyword.other.unit.suffix",
+				"source.cpp keyword.other.suffix.literal.built-in",
+			],
+			"settings": {
+				"foreground": "#2AACB8",
+			}
+		},
     ]
 }

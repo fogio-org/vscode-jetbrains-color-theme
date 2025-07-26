@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.5.0
+
+- Add C/C++ syntax colors
+
 ## 0.4.0
 
 - Add gitDecoration colors
