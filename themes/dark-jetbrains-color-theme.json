@@ -1803,7 +1803,7 @@
 			"scope": [
 				"meta.method-call.groovy meta.method.groovy",
 				"source.groovy meta.method-call meta.method",
-				"entity.name.function.java",
+				"source.groovy entity.name.function.java",
 			],
 			"settings": {
 				"foreground": "#3e83c9"
@@ -2817,6 +2817,87 @@
 			],
 			"settings": {
 				"foreground": "#2AACB8",
+			}
+		},
+		{
+			"scope": [
+				"source.java keyword",
+				"source.java storage.modifier",
+				"source.java storage.type.primitive",
+			],
+			"settings": {
+				"foreground": "#CF8E6D",
+			}
+		},
+		{
+			"scope": [
+				"source.java storage.modifier.import", ////////////////
+				"source.java keyword.operator.assignment",
+				"source.java keyword.operator.arithmetic",
+				"source.java keyword.operator.increment-decrement"
+			],
+			"settings": {
+				"foreground": "#BCBEC4",
+			}
+		},
+		{
+			"scope": [
+				"source.java comment.block.javadoc",
+			],
+			"settings": {
+				"foreground": "#5F826B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"source.java comment.block.javadoc keyword",
+			],
+			"settings": {
+				"foreground": "#67A37C",
+			}
+		},
+		{
+			"scope": [
+				"source.java comment.block.javadoc variable",
+			],
+			"settings": {
+				"foreground": "#ABADB3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"source.java storage.type.annotation",
+				"source.java punctuation.definition.annotation",
+			],
+			"settings": {
+				"foreground": "#B3AE60",
+			}
+		},
+		{
+			"scope": [
+				"source.java storage.type",
+			],
+			"settings": {
+				"foreground": "#16BAAC",
+			}
+		},
+		{
+			"scope": [
+				"source.java entity.name.function",
+			],
+			"settings": {
+				"foreground": "#56A8F5",
+			}
+		},
+		{
+			"scope": [
+				"source.java variable.other.object.property",
+				"source.java constant.other.enum",
+			],
+			"settings": {
+				"foreground": "#C77DBB",
 			}
 		},
     ]

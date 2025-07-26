@@ -3,6 +3,7 @@
 ## 0.5.0
 
 - Add C/C++ syntax colors
+- Add Java syntax colors
 
 ## 0.4.0
 
