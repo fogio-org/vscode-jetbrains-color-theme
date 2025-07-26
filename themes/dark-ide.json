@@ -170,7 +170,19 @@
 		"diffEditor.insertedLineBackground": "#24472C80",
 		"diffEditor.removedLineBackground": "#46252280",
 
-		"gitDecoration.ignoredResourceForeground": "#505050",
+		"gitDecoration.addedResourceForeground": "#619250",
+		"gitDecoration.modifiedResourceForeground": "#5c8eba",
+		"gitDecoration.deletedResourceForeground": "#d06658",
+		"gitDecoration.renamedResourceForeground": "#619250",
+		"gitDecoration.untrackedResourceForeground": "#619250",
+		"gitDecoration.ignoredResourceForeground": "#848504",
+
+		"gitDecoration.stageModifiedResourceForeground":"#5c8eba",
+		"gitDecoration.stageDeletedResourceForeground": "#d06658",
+
+		"gitDecoration.conflictingResourceForeground": "default",
+		"gitDecoration.submoduleResourceForeground": "default",
+		"git.blame.editorDecorationForeground": "default",
 
 		"editor.findMatchBackground": "#04738c80",
 		"editor.findMatchBorder": "#ced0d6",
