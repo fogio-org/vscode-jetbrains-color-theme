@@ -2999,7 +2999,48 @@
 				"foreground": "#c48d69",
 				"fontStyle": ""
 			}
-		}
+		},
+		// {
+		// 	"scope": [
+		// 		"text.tex.latex comment.line.percentage",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#5F826B"
+		// 	}
+		// },
+		{
+			"scope": [
+				"text.tex.latex comment",
+			],
+			"settings": {
+				"foreground": "#7A7E85"
+			}
+		},
+		{
+			"scope": [
+				"text.tex.latex keyword",
+				"text.tex.latex support.function",
+			],
+			"settings": {
+				"foreground": "#CF8E6D"
+			}
+		},
+		{
+			"scope": [
+				"text.tex.latex support.class.math.block",
+			],
+			"settings": {
+				"foreground": "#6AAB73"
+			}
+		},
+		{
+			"scope": [
+				"text.tex.latex support.class.math.block constant",
+			],
+			"settings": {
+				"foreground": "#CF8E6D"
+			}
+		},
     ],
 	"semanticTokenColors": {
 		"function": "#57AAF7",
