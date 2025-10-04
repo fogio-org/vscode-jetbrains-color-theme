@@ -2961,5 +2961,43 @@
 				"foreground": "#CF8E6D",
 			}
 		},
+		{
+			"scope": [
+				"source.cs entity.name.function"
+			],
+			"settings": {
+				"foreground": "#56a8f5",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"source.cs entity.name.type"
+			],
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"scope": [
+				"source.cs variable.other.object.property",
+				"source.cs entity.name.variable.property",
+			],
+			"settings": {
+				"foreground": "#C77DBB"
+			}
+		},
+		{
+			"scope": [
+				"source.cs storage.modifier",
+				"source.cs storage.type",
+				"source.cs keyword.type",
+				"source.cs keyword.control"
+			],
+			"settings": {
+				"foreground": "#c48d69",
+				"fontStyle": ""
+			}
+		}
     ]
 }
