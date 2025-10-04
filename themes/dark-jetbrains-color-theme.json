@@ -370,6 +370,7 @@
 				"source.python constant.character.format.placeholder.other",
 				"source.python meta.function storage.type.function ",
 				"source.python meta.class storage.type.class",
+				"source.python storage.type.class",
 				"source.python keyword.control.flow",
 				"source.python keyword.control.import",
 				"source.python storage.type.format",
@@ -2961,5 +2962,90 @@
 				"foreground": "#CF8E6D",
 			}
 		},
-    ]
+		{
+			"scope": [
+				"source.cs entity.name.function"
+			],
+			"settings": {
+				"foreground": "#56a8f5",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"source.cs entity.name.type"
+			],
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"scope": [
+				"source.cs variable.other.object.property",
+				"source.cs entity.name.variable.property",
+			],
+			"settings": {
+				"foreground": "#C77DBB"
+			}
+		},
+		{
+			"scope": [
+				"source.cs storage.modifier",
+				"source.cs storage.type",
+				"source.cs keyword.type",
+				"source.cs keyword.control"
+			],
+			"settings": {
+				"foreground": "#c48d69",
+				"fontStyle": ""
+			}
+		},
+		// {
+		// 	"scope": [
+		// 		"text.tex.latex comment.line.percentage",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#5F826B"
+		// 	}
+		// },
+		{
+			"scope": [
+				"text.tex.latex comment",
+			],
+			"settings": {
+				"foreground": "#7A7E85"
+			}
+		},
+		{
+			"scope": [
+				"text.tex.latex keyword",
+				"text.tex.latex support.function",
+			],
+			"settings": {
+				"foreground": "#CF8E6D"
+			}
+		},
+		{
+			"scope": [
+				"text.tex.latex support.class.math.block",
+			],
+			"settings": {
+				"foreground": "#6AAB73"
+			}
+		},
+		{
+			"scope": [
+				"text.tex.latex support.class.math.block constant",
+			],
+			"settings": {
+				"foreground": "#CF8E6D"
+			}
+		},
+    ],
+	"semanticTokenColors": {
+		"function": "#57AAF7",
+		"property": "#C77DBB",
+		"enumMember": "#C77DBB",
+		"typeParameter": "#16baac",
+	}
 }
