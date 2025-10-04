@@ -370,6 +370,7 @@
 				"source.python constant.character.format.placeholder.other",
 				"source.python meta.function storage.type.function ",
 				"source.python meta.class storage.type.class",
+				"source.python storage.type.class",
 				"source.python keyword.control.flow",
 				"source.python keyword.control.import",
 				"source.python storage.type.format",
@@ -2999,5 +3000,11 @@
 				"fontStyle": ""
 			}
 		}
-    ]
+    ],
+	"semanticTokenColors": {
+		"function": "#57AAF7",
+		"property": "#C77DBB",
+		"enumMember": "#C77DBB",
+		"typeParameter": "#16baac",
+	}
 }

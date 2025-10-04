@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.6.0
+
+- Add C# support for dark theme
+- Fix Python 3.12 generics syntax (PEP 695)
+
 ## 0.5.0
 
 - Add C/C++ syntax colors
