@@ -2430,8 +2430,12 @@
 		{
 			"scope": [
 				"source.dart keyword",
+				"source.dart keyword.declaration",
+				"source.dart keyword.control",
 				"source.dart storage.type.primitive",
-				"source.dart storage.modifier"
+				"source.dart storage.modifier",
+				"source.dart constant.language",
+				"source.dart variable.language"
 			],
 			"settings": {
 				"foreground": "#CF8E6D"
@@ -2439,7 +2443,7 @@
 		},
 		{
 			"scope": [
-				"source.dart string",
+				"source.dart string"
 			],
 			"settings": {
 				"foreground": "#6AAB73"
@@ -2447,11 +2451,31 @@
 		},
 		{
 			"scope": [
+				"source.dart constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#CF8E6D"
+			}
+		},
+		{
+			"scope": [
+				"source.dart constant.numeric"
+			],
+			"settings": {
+				"foreground": "#2AACB8"
+			}
+		},
+		{
+			"scope": [
 				"source.dart keyword.operator.assignment",
 				"source.dart keyword.operator.arithmetic",
-				"source.dart comment.block.documentation variable.name",
 				"source.dart keyword.operator.ternary",
+				"source.dart keyword.operator.logical",
+				"source.dart keyword.operator.comparison",
+				"source.dart keyword.operator.bitwise",
 				"source.dart keyword.operator",
+				"source.dart punctuation.terminator",
+				"source.dart punctuation.separator"
 			],
 			"settings": {
 				"foreground": "#BCBEC4"
@@ -2459,7 +2483,7 @@
 		},
 		{
 			"scope": [
-				"source.dart entity.name.function",
+				"source.dart entity.name.function"
 			],
 			"settings": {
 				"foreground": "#56A8F5"
@@ -2467,7 +2491,18 @@
 		},
 		{
 			"scope": [
+				"source.dart entity.name.type.class",
+				"source.dart entity.other.inherited-class",
+				"source.dart support.class"
+			],
+			"settings": {
+				"foreground": "#16BAAC"
+			}
+		},
+		{
+			"scope": [
 				"source.dart storage.type.annotation",
+				"source.dart punctuation.definition.annotation"
 			],
 			"settings": {
 				"foreground": "#B3AE60"
@@ -2475,10 +2510,54 @@
 		},
 		{
 			"scope": [
-				"source.dart support.class",
+				"source.dart variable.other.property"
 			],
 			"settings": {
 				"foreground": "#C77DBB"
+			}
+		},
+		{
+			"scope": [
+				"source.dart comment.block.documentation"
+			],
+			"settings": {
+				"foreground": "#5F826B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"source.dart comment.block.documentation keyword",
+				"source.dart comment.block.documentation storage.type"
+			],
+			"settings": {
+				"foreground": "#67A37C"
+			}
+		},
+		{
+			"scope": [
+				"source.dart comment.block.documentation variable.name",
+				"source.dart comment.block.documentation variable.parameter"
+			],
+			"settings": {
+				"foreground": "#ABADB3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"source.dart string variable"
+			],
+			"settings": {
+				"foreground": "#BCBEC4"
+			}
+		},
+		{
+			"scope": [
+				"source.dart punctuation.definition.template-expression"
+			],
+			"settings": {
+				"foreground": "#BCBEC4" 
 			}
 		},
 		{
@@ -3047,5 +3126,14 @@
 		"property": "#C77DBB",
 		"enumMember": "#C77DBB",
 		"typeParameter": "#16baac",
+		"class:dart": "#56A8F5",
+		"class.defaultLibrary:dart": "#BCBEC4", 
+		"enum:dart": "#BCBEC4",
+		"type:dart": "#BCBEC4",
+		"interface:dart": "#BCBEC4",
+		"annotation:dart": "#B3AE60",
+		"variable:dart": "#C77DBB",
+		"parameter:dart": "#BCBEC4",
+		"keyword:dart": "#CF8E6D"
 	}
 }

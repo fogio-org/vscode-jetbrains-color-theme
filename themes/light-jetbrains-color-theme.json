@@ -469,5 +469,151 @@
 				"fontStyle": ""
 			},
 		},
-    ]
+
+		{
+			"scope": [
+				"source.dart keyword",
+				"source.dart keyword.declaration",
+				"source.dart keyword.control",
+				"source.dart storage.type.primitive",
+				"source.dart storage.modifier",
+				"source.dart constant.language",
+				"source.dart variable.language"
+			],
+			"settings": {
+				"foreground": "#0033B3"
+			}
+		},
+		{
+			"scope": [
+				"source.dart string"
+			],
+			"settings": {
+				"foreground": "#067D17"
+			}
+		},
+		{
+			"scope": [
+				"source.dart constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#0037A6"
+			}
+		},
+		{
+			"scope": [
+				"source.dart constant.numeric"
+			],
+			"settings": {
+				"foreground": "#1750EB"
+			}
+		},
+		{
+			"scope": [
+				"source.dart keyword.operator.assignment",
+				"source.dart keyword.operator.arithmetic",
+				"source.dart keyword.operator.ternary",
+				"source.dart keyword.operator.logical",
+				"source.dart keyword.operator.comparison",
+				"source.dart keyword.operator.bitwise",
+				"source.dart keyword.operator",
+				"source.dart punctuation.terminator",
+				"source.dart punctuation.separator"
+			],
+			"settings": {
+				"foreground": "#080808"
+			}
+		},
+		{
+			"scope": [
+				"source.dart entity.name.function"
+			],
+			"settings": {
+				"foreground": "#00627A"
+			}
+		},
+		{
+			"scope": [
+				"source.dart entity.name.type.class",
+				"source.dart entity.other.inherited-class",
+				"source.dart support.class"
+			],
+			"settings": {
+				"foreground": "#00627A"
+			}
+		},
+		{
+			"scope": [
+				"source.dart storage.type.annotation",
+				"source.dart punctuation.definition.annotation"
+			],
+			"settings": {
+				"foreground": "#9E880D"
+			}
+		},
+		{
+			"scope": [
+				"source.dart variable.other.property"
+			],
+			"settings": {
+				"foreground": "#871094"
+			}
+		},
+		{
+			"scope": [
+				"source.dart comment.block.documentation"
+			],
+			"settings": {
+				"foreground": "#8C8C8C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"source.dart comment.block.documentation keyword",
+				"source.dart comment.block.documentation storage.type"
+			],
+			"settings": {
+				"foreground": "#8C8C8C",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"scope": [
+				"source.dart comment.block.documentation variable.name",
+				"source.dart comment.block.documentation variable.parameter"
+			],
+			"settings": {
+				"foreground": "#4a4a4a",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"source.dart string variable"
+			],
+			"settings": {
+				"foreground": "#080808"
+			}
+		},
+		{
+			"scope": [
+				"source.dart punctuation.definition.template-expression"
+			],
+			"settings": {
+				"foreground": "#080808"
+			}
+		},
+    ],
+	"semanticTokenColors": {
+		"class:dart": "#00627A",
+		"class.defaultLibrary:dart": "#080808",
+		"enum:dart": "#00627A",
+		"type:dart": "#00627A",
+		"interface:dart": "#00627A",
+		"annotation:dart": "#9E880D",
+		"variable:dart": "#871094",
+		"parameter:dart": "#080808",
+		"keyword:dart": "#0033B3"
+	}
 }
