@@ -2546,11 +2546,18 @@
 		},
 		{
 			"scope": [
-				"source.dart string variable",
+				"source.dart string variable"
+			],
+			"settings": {
+				"foreground": "#BCBEC4"
+			}
+		},
+		{
+			"scope": [
 				"source.dart punctuation.definition.template-expression"
 			],
 			"settings": {
-				"foreground": "#CF8E6D"
+				"foreground": "#BCBEC4" 
 			}
 		},
 		{

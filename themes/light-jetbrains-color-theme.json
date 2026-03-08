@@ -590,11 +590,18 @@
 		},
 		{
 			"scope": [
-				"source.dart string variable",
+				"source.dart string variable"
+			],
+			"settings": {
+				"foreground": "#080808"
+			}
+		},
+		{
+			"scope": [
 				"source.dart punctuation.definition.template-expression"
 			],
 			"settings": {
-				"foreground": "#0033B3"
+				"foreground": "#080808"
 			}
 		},
     ],
