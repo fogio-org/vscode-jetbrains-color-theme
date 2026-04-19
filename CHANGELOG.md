@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.0.2
+
+- Update readme badges
+
 ## 1.0.1
 
 - Bump minimum VS Code engine to `^1.75.0`
