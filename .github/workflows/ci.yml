@@ -1,0 +1,91 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [master, develop]
+  push:
+    branches: [master, develop]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install --no-audit --no-fund
+
+      - name: Run validation
+        id: validate
+        continue-on-error: true
+        run: |
+          set +e
+          npm run validate 2>&1 | tee validate.log
+          echo "exitcode=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Build VSIX (smoke test)
+        if: steps.validate.outputs.exitcode == '0'
+        run: npx --yes @vscode/vsce package --no-dependencies --out theme.vsix
+
+      - uses: actions/upload-artifact@v4
+        if: steps.validate.outputs.exitcode == '0'
+        with:
+          name: theme-vsix
+          path: theme.vsix
+
+      - name: Generate fogio-ci bot token
+        if: github.event_name == 'pull_request'
+        id: bot-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.FOGIO_BOT_APP_ID }}
+          private-key: ${{ secrets.FOGIO_BOT_PRIVATE_KEY }}
+
+      - name: Prepare PR comment body
+        if: github.event_name == 'pull_request'
+        run: |
+          {
+            if [ "${{ steps.validate.outputs.exitcode }}" = "0" ]; then
+              echo "### ✅ CI passed"
+            else
+              echo "### ❌ CI failed"
+            fi
+            echo
+            echo "Workflow run: [\`${GITHUB_RUN_ID}\`](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})"
+            echo
+            echo "<details><summary><code>npm run validate</code></summary>"
+            echo
+            echo '```'
+            cat validate.log
+            echo '```'
+            echo
+            echo "</details>"
+          } > comment.md
+
+      - name: Post PR comment
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          GITHUB_TOKEN: ${{ steps.bot-token.outputs.token }}
+          header: ci-validate
+          path: comment.md
+
+      - name: Approve PR on success
+        if: github.event_name == 'pull_request' && steps.validate.outputs.exitcode == '0'
+        env:
+          GH_TOKEN: ${{ steps.bot-token.outputs.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh pr review "$PR_NUMBER" \
+            --repo "$REPO" \
+            --approve \
+            --body "Automated approval — CI validation passed."
+
+      - name: Fail job if validation failed
+        if: steps.validate.outputs.exitcode != '0'
+        run: exit 1
