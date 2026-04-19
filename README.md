@@ -2,12 +2,21 @@
 
 The goal of the JetBrains New UI Color Theme is to reduce visual clutter and give you more space for your code and thoughts.
 
-<p align="center">
-    <a href="https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-color-theme"><img src="https://img.shields.io/visual-studio-marketplace/v/fogio.jetbrains-color-theme?style=for-the-badge&colorA=555555&colorB=007ec6&label=VERSION" alt="Version"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-color-theme"><img src="https://img.shields.io/visual-studio-marketplace/r/fogio.jetbrains-color-theme?style=for-the-badge&colorA=555555&colorB=007ec6&label=RATING" alt="Rating"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-color-theme"><img src="https://img.shields.io/visual-studio-marketplace/i/fogio.jetbrains-color-theme?style=for-the-badge&colorA=555555&colorB=007ec6&label=Installs" alt="INSTALLS"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-color-theme"><img src="https://img.shields.io/visual-studio-marketplace/d/fogio.jetbrains-color-theme?style=for-the-badge&colorA=555555&colorB=007ec6&label=Downloads" alt="DOWNLOADS"></a>
-</p>
+VS Code Marketplace:
+
+![VS Code Marketplace Version](https://vsmarketplacebadges.dev/version-short/fogio.jetbrains-color-theme.svg?style=for-the-badge&colorA=555555&colorB=007ec6&label=VERSION)&nbsp;
+![VS Code Marketplace Rating](https://vsmarketplacebadges.dev/rating-short/fogio.jetbrains-color-theme.svg?style=for-the-badge&colorA=555555&colorB=007ec6&label=RATING)&nbsp;
+![VS Code Marketplace Downloads](https://vsmarketplacebadges.dev/downloads-short/fogio.jetbrains-color-theme.svg?style=for-the-badge&colorA=555555&colorB=007ec6&label=DOWNLOADS)&nbsp;
+![VS Code Marketplace Installs](https://vsmarketplacebadges.dev/installs-short/fogio.jetbrains-color-theme.svg?style=for-the-badge&colorA=555555&colorB=007ec6&label=INSTALLS)
+
+Open VSX:
+
+![Open VSX Version](https://img.shields.io/open-vsx/v/fogio/jetbrains-color-theme?style=for-the-badge&color=%23c260ef&label=VERSION)&nbsp;
+![Open VSX Rating](https://img.shields.io/open-vsx/rating/fogio/jetbrains-color-theme?style=for-the-badge&color=%23c260ef&label=RATING)&nbsp;
+![Open VSX Downloads](https://img.shields.io/open-vsx/dt/fogio/jetbrains-color-theme?style=for-the-badge&color=%23c260ef&label=DOWNLOADS)&nbsp;
+![Open VSX Release Date](https://img.shields.io/open-vsx/release-date/fogio/jetbrains-color-theme?style=for-the-badge&color=%23c260ef&label=RELEASE%20DATE)
+
+
 
 ![example](https://raw.githubusercontent.com/fogio-org/vscode-jetbrains-color-theme/refs/heads/master/assets/img/preview_dark_example.png)
 
