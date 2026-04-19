@@ -1,5 +1,18 @@
 # Change Log
 
+## 1.0.1
+
+- Bump minimum VS Code engine to `^1.75.0`
+- Expand `semanticTokenColors` in dark theme (4 → 37 keys: variable, parameter, class, interface, namespace, method, decorator, modifier, keyword, string, number, operator + `deprecated`/`abstract`/`static` modifiers)
+- Add `semanticTokenColors` to light theme (full parity with dark, IntelliJ Light palette)
+- Port Java, Kotlin, C/C++, C#, LaTeX, DBML and log syntax coloring to light theme
+- Add markdown/diff/invalid token scopes to light theme
+- Add modern workbench color keys to both themes: `commandCenter.*`, `chat.*`, `inlineChat.*`, `notebook.*`, `profileBadge.*`, `editorStickyScroll*`, `editor.linkedEditingBackground`, `editorLineNumber.dimmedForeground`, `testing.*`, `charts.*`, `scm.historyItem*`
+- Convert colors that must be transparent to `#RRGGBBAA` while preserving visual appearance on the editor background (line/stack-frame/linked-editing/selection/find-match/word-highlight/inactive-selection highlights, notebook cell backgrounds, merge conflict backgrounds, minimap and overview ruler markers)
+- Make light theme scrollbar slider translucent so overview ruler markers show through
+- Fix terminal cursor color to improve visibility (light theme)
+- Fix typo in keyword `rubymiine` → `rubymine`
+
 ## 0.6.0
 
 - Add C# support for dark theme
