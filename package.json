@@ -67,6 +67,7 @@
     ]
   },
   "scripts": {
+    "validate:manifest": "node scripts/validate-manifest.js",
     "validate": "node scripts/validate-themes.js",
     "package": "vsce package",
     "publish": "vsce publish"
