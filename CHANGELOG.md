@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.3
+
+- Add structured CI workflow with manifest validation, theme validation, VSIX smoke test, PR status comments, and auto-approval on success
+- Add release workflow notifications for GitHub and Telegram with publish logs for VS Code Marketplace and Open VSX
+- Add dedicated manifest validation for theme extension metadata, icons, and declared theme files
+
 ## 1.0.2
 
 - Update readme badges
